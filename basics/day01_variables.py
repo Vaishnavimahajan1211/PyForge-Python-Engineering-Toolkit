@@ -51,7 +51,7 @@ print("Multipliction:", Mul)
 div = num1 / num2
 print("Division:", div)
 
-
+#Data types in python
 name = "Vaishnavi"
 age = 22
 cgpa = 7.5
@@ -63,3 +63,8 @@ print(type(age))
 print(type(cgpa))
 print(type(is_learning))
 print(type(skills))
+
+#salary calculation using python variables
+monthly_salary = 50000
+annual_salary = monthly_salary *12
+print("annual_salary:", annual_salary)
