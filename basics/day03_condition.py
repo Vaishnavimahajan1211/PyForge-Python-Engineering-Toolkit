@@ -43,3 +43,12 @@ else:
 marks = 35
 result = "pass" if marks >= 40 else "fail"
 print (result)    
+
+
+#task 01 voting eligiblity
+age = 17 
+if age>= 18 :
+    print ("you are eligible to vote")
+else :
+    print("you are not eligible to vote")    
+    
