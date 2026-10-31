@@ -151,3 +151,13 @@ if total_salary > 400000:
     print("salary is above 4 lakh")
 else:
     print("salary is below 4 lakh")    
+
+#task 10
+n = 12
+m= 5
+print (n&m)
+print(n|m)
+print(n^m)
+print(~n)
+print(n<<1)
+print(n>>1)    
