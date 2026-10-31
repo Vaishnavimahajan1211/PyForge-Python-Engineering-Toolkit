@@ -79,3 +79,23 @@ if number %2 == 0:
 else:
     print("the number is odd")
 
+#TASK 3 
+x = 2
+y = 5
+
+print(x>y)
+print(x==y)
+print(x<y)
+print(x!=y)
+
+##TASK 4 eligiblity check
+age = 22
+qualification = True
+if 18<= age and qualification:
+    print("eligible")
+
+#TASK 5 discount calculation
+price = 1000
+discount = 10/100
+final_price = price - (price * discount)
+print(final_price)
