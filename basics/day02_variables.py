@@ -99,3 +99,55 @@ price = 1000
 discount = 10/100
 final_price = price - (price * discount)
 print(final_price)
+
+#TASK 6 Assignment operators
+x = 50
+x += 10
+print(x)
+
+v= 60
+v -= 20
+print(v)
+
+g= 5
+g *= 3
+print(g)
+
+j= 8
+j/=4
+print(j)
+
+#TASK 7 Membership operator in and not in
+
+skills = ["python", "sql", "azure"]
+
+print("python" in skills)
+print("java" not in skills)
+print("sql" in skills)
+
+#TASK 8 Identity operators is and is not
+a = [1, 2, 3]
+b = [1, 2, 3]
+c= a
+print (a is b)
+print (a is c)
+print (a == b )
+print(a is not c)
+print (a==c)
+print (b == c)
+
+#mini challenge
+emp_salary = 35000
+annual_salary = emp_salary * 12
+print(annual_salary)
+
+bonus = annual_salary * 10/100
+print(bonus)
+
+total_salary = annual_salary + bonus
+print(total_salary)
+
+if total_salary > 400000:
+    print("salary is above 4 lakh")
+else:
+    print("salary is below 4 lakh")    
