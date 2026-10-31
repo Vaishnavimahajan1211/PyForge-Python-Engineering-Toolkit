@@ -51,4 +51,19 @@ if age>= 18 :
     print ("you are eligible to vote")
 else :
     print("you are not eligible to vote")    
-    
+
+
+#task 2 student grading system
+marks = 85 
+
+
+if marks>= 90:
+    print("A Grade")
+elif marks>= 75:
+    print("B Grade")
+elif marks>= 60:
+    print("C Grade") 
+elif marks>= 40:
+    print("D Grade")       
+else :
+    print("Fail") 
