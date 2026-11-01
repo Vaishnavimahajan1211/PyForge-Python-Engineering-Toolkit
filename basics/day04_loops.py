@@ -11,14 +11,25 @@ for x in "banana":
     print(x)    
 
 
-#while loop  
-count = 1
-while count <= 5:
-    print(count)
-    count += 1
 
 fruits = ["apple", "banana", "cherry"]    
 for x in fruits:
     if x == "banana":
         continue
     print(x)
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)  
+
+for x in range(6):
+  print(x)    
+
+#while loop  
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
