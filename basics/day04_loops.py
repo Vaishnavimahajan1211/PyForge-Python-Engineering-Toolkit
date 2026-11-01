@@ -29,7 +29,20 @@ for x in range(6):
   print(x)    
 
 #while loop  
-count = 1
-while count <= 5:
-    print(count)
+count = 1 
+while count <= 8:
+    print("Hello")
     count += 1
+
+print("count is", count)
+
+i = 1
+while i <=5:
+   print ("oh!" , i)
+   i += 1 
+
+i = 10
+while i >=0:
+    print(i)   
+    i -=  1
+print("loop is over")    
