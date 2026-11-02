@@ -47,3 +47,28 @@ idx = 0
 while idx < len(nums):
     print(nums[idx])
     idx += 1
+
+
+heros = ["Ironman", "Thor", "Hulk", "Captain America", "Black Widow"]
+idx = 0 
+while idx < len(heros):
+    print(heros[idx])
+    idx +=1
+
+#search for number x in this tuple using loops:
+kumkum = (1, 4 ,9, 16, 25, 36, 49, 64, 81, 100)
+
+x = 36 
+i = 0 #initialization
+while i < len(kumkum):
+    if(kumkum[i] == x):
+      print(i)
+    i += 1 
+
+#while loop use karke 1 se 10 tak numbers ka total calculate karo.
+total = 0
+i = 1
+while i <= 10:
+    total += i
+    i += 1
+print("Total:", total)
