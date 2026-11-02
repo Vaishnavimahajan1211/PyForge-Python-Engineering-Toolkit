@@ -1,32 +1,4 @@
-#FOR loop
-
-for i in range (1,6):
-  print(i)
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-    print(x)  
-
-for x in "banana":
-    print(x)    
-
-
-
-fruits = ["apple", "banana", "cherry"]    
-for x in fruits:
-    if x == "banana":
-        continue
-    print(x)
-
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  if x == "banana":
-    break
-  print(x)  
-
-for x in range(6):
-  print(x)    
+   
 
 #while loop  
 count = 1 
@@ -46,3 +18,32 @@ while i >=0:
     print(i)   
     i -=  1
 print("loop is over")    
+ 
+
+#print number from 1 to 100
+i = 1
+while i <= 100:
+    print(i)
+    i +=1
+
+#print number from 100 to 1
+i = 100
+while i >= 1:
+    print(i)
+    i -= 1
+
+
+#print the multiplication table of a number n
+n = 3
+while n<= 30:
+    print(n)
+    n += 3
+
+#print the element of list [1,4,9,16,25,36,49,64,81,100]
+
+nums = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+while idx < len(nums):
+    print(nums[idx])
+    idx += 1
