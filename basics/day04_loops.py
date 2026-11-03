@@ -115,8 +115,37 @@ i = 0
 while i <= 20:
       if i % 2 == 0:
           print(i)
-      i += 1
+      i += 1 
 
 
+#for lops
+for i in range(1, 11):
+    print(i)
 
+list = [1, 2, 3, 4, 5]
+for el in list:
+    print(el)    
        
+data = ["ravi", "kumar", "singh"]
+for name in data:
+    print(name)
+
+#range ke sath for loop with step value
+
+for i in range(2 , 10 , 2):    #start , stop , step   
+    print(i)
+
+#data engineering me range ka use tab hota hai jab fixed amount of time kuchh print karna ho - jaise batch processing mein chunkc banate waqt
+    
+#enumerate() - index + value dono print krwana ho to
+data = ["ravi", "kumar", "singh"]
+for index , name in enumerate(data):
+    print(index, name) #jab record ka position trcak krna ho 
+
+#loop with dictionary
+record = {"name": "ravi", "age": 25, "city": "delhi"}    
+
+for key , value in record . items():
+    print(key , ":", value)
+
+    
