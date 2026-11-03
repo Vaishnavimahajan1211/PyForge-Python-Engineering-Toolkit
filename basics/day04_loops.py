@@ -72,3 +72,51 @@ while i <= 10:
     total += i
     i += 1
 print("Total:", total)
+
+
+#break statement
+
+i = 0
+while i < 20:
+    print(i)
+    if(i == 16):
+        break
+    i += 1
+print("loop is over")
+
+a = 4 
+b = 4
+if a != b :
+    if a % b == 0:
+        a = a*2 + 1
+        b = b ** 2 + 2
+    else :
+        b = b ** 2
+        a = b *2
+print(a +b)
+
+#continue statement
+i = 0 
+while i<=5:
+    if(i == 3):
+        i += 1
+        continue  #skip
+    print(i)
+    i += 1
+
+#print even number between 1 to 20 using while 
+i = 0 
+while i <= 20:
+          print(i)
+          i += 2
+
+  # method nuber two
+i = 0
+while i <= 20:
+      if i % 2 == 0:
+          print(i)
+      i += 1
+
+
+
+       
