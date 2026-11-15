@@ -1,116 +1,12 @@
-print("It's alright")
-print("He is called 'Johnny'")
-print('He is called "Johnny"')
+name = "vaishnavi Mahajan"
+city = "pune"
+print(name)
+print(city)
 
 
+#string indexing - string ke har character ka ek index number hota hai . index 0 se start hota hai
 
-a = "Hello"
-print(a)
-
-
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-print(a)
-
-for x in "banana":
-  print(x)
-
-a = "Hello, World!"
-print(len(a))
-
-
-txt = "The best things in life are free!"
-print("free" in txt)
-
-txt = "The best things in life are free!"
-if "free" in txt:
-  print("Yes, 'free' is present.")
-
-
-txt = "The best things in life are free!"
-print("expensive" not in txt)  
-
-
-txt = "The best things in life are free!"
-if "expensive" not in txt:
-  print("No, 'expensive' is NOT present.")
-
-
-txt = "The best things in life are free!"
-print("expensive" not in txt)  
-
-txt = "The best things in life are free!"
-if "expensive" not in txt:
-  print("No, 'expensive' is NOT present.")
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)  
-
-
-for x in "banana":
-  print(x)
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  if x == "banana":
-    break
-  print(x)  
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  if x == "banana":
-    continue
-  print(x)  
-
-for x in range(6):
-  print(x)  
-
-for x in range(2, 6):
-  print(x)
-
-
-for x in range(6):
-  print(x)
-else:
-  print("Finally finished!")
-
-for x in range(6):
-  if x == 3: break
-  print(x)
-else:
-  print("Finally finished!")  
-
-for x in range(6):
-  if x == 3: break
-  print(x)
-else:
-  print("Finally finished!")  
-
-mylist = ["apple", "banana", "cherry"]
-
-
-thislist = ["apple", "banana", "cherry"]
-print(thislist)
-
-thislist = ["apple", "banana", "cherry", "apple", "cherry"]
-print(thislist)
-
-
-thislist = ["apple", "banana", "cherry"]
-print(len(thislist))
-
-list1 = ["apple", "banana", "cherry"]
-list2 = [1, 5, 7, 9, 3]
-list3 = [True, False, False]
-
-thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
-print(thislist)
+name = "python"
+print(name[0])
+print(name[1])
+print(name[2])
