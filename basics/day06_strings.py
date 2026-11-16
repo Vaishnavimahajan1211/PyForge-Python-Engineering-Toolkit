@@ -10,3 +10,16 @@ name = "python"
 print(name[0])
 print(name[1])
 print(name[2])
+
+#negetive indexing - 
+print(name[-1])
+print(name[-2])
+
+#string slicing 
+language = "python programming"
+print(language[0:6])
+print(language[7:18])
+
+#escape sequence
+#/n saperating the lines
+print("kumkum \nMahajan")
