@@ -23,3 +23,12 @@ print(language[7:18])
 #escape sequence
 #/n saperating the lines
 print("kumkum \nMahajan")
+
+#\t tab sequence
+print("kumkum \tMahajan")
+
+#\\ backslash
+print("kumkum \\Mahajan")
+
+#single quote
+print("kumkum \'Mahajan\'")
