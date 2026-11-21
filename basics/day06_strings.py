@@ -32,3 +32,8 @@ print("kumkum \\Mahajan")
 
 #single quote
 print("kumkum \'Mahajan\'")
+
+name1 = "vaishnavi D Mahajan"
+city2 = "Mumbai"
+print(name1)
+print(city2)
